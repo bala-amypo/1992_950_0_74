@@ -1,7 +1,7 @@
 import jakarta.persistence.*;
 
 public class student{
-    @ID
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String name;
