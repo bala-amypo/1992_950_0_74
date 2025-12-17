@@ -7,7 +7,7 @@ public class student{
     private String name;
     private String email;
 
-    public int getId(){
+    public INTEGER getId(){
         return id;
     }
     public String getName(){
@@ -16,7 +16,7 @@ public class student{
     public String getEmail(){
         return email;
     }
-    public void setId(int id){
+    public void setId(INTEGER id){
         this.id=id;
     }
     public void setName(String name){
@@ -25,5 +25,6 @@ public class student{
     public void setEmail(String email){
         this.email=email;
     }
+    
 
 }
