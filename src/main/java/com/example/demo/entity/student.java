@@ -1,4 +1,6 @@
 public class student{
+    @ID
+    @
     private int id;
     private String name;
     private String email;
@@ -18,6 +20,8 @@ public class student{
     public void setName(String name){
         this.name=name;
     }
-    public void setEmail(String )
+    public void setEmail(String email){
+        this.email=email;
+    }
 
 }
