@@ -1,7 +1,9 @@
+import jakarta.persistence.*;
+
 public class student{
     @ID
-    @
-    private int id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private INTEGER id;
     private String name;
     private String email;
 
