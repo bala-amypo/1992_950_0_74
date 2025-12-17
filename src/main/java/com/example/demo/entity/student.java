@@ -25,7 +25,7 @@ public class student{
     public void setEmail(String email){
         this.email=email;
     }
-    
+    public student()
 
 
 }
